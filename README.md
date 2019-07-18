@@ -9,12 +9,17 @@ pip install termcolor
 pip install getpass
 ```
 
+## Installation
+Clone this repository and save it somewhere in your local directory. That's all :)
+
 ## Usage
-Run the program in the following format:
+Run the program in the following format
 ```bash
 python chipper.py [filename]
 ```
 Where `[filename]` is the name of the text file that will be encrypted or decrypted which is located at the same directory as `chipper.py` file.
+
+_(Note that you have to be inside the directory where `chipper.py` is stored to run the program)_
 
 The program will prompt the user to set the program **mode** (e.g. **_decrypt_** or **_encrypt_** mode). Then, the program will ask the user to enter the **key** to either encrypt or decrypt the given file.
 
