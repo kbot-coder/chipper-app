@@ -42,10 +42,10 @@ if __name__ == "__main__":
                     f = open(out_filename, "w")
                     for line in file:
                         f.write(encrypt_decrypt_line(key, line.rstrip('\n'), -1))
+                        f.write('\n')
                     f.close()
                     print("Decrypted file called", colored("%s" % out_filename, "yellow", attrs=["bold"]),
-                    "has been created." % out_filename)
-
+                    "has been created.")
                 else:
                     print("Invalid input! ", "Enter ", colored('e', 'yellow', attrs=['bold']), \
                     " for encrypt, or ", colored('d', 'yellow', attrs=['bold']), " for decrypt", sep = '')
