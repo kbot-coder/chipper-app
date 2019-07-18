@@ -15,7 +15,7 @@ pip install getpass
 Clone this repository and save it somewhere in your local directory. That's all :)
 
 ## Usage
-Run the program in the following format
+Place the "to be encrypted" file in `src` directory, `cd` into `src` directory and run the program in the following format
 ```bash
 python chipper.py [filename]
 ```
