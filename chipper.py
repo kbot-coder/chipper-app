@@ -12,6 +12,9 @@ if __name__ == "__main__":
     characters = printable[:-3] # create a list of printable characters
     # assign each character to have a specific index value
     shifts = {characters[i]: i for i in range(len(characters))}
+    if len(sys.argv) != 2:
+        print(colored("ProgramError:", "red"), "Please run the program in the following format", colored("python chipper.py [filename]", "yellow"))
+        sys.exit()
     filename = sys.argv[1]
     try:
         with open(filename) as file:
