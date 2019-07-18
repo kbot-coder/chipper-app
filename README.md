@@ -1,3 +1,5 @@
+![Python Version](https://img.shields.io/pypi/pyversions/Django.svg)
+
 # chipper-app
 Chipper app is a program that can encrypt or decrypt a given file from a given text. The algorithm used is based on the classic Vigenère cipher method. Click [here](https://en.wikipedia.org/wiki/Vigenère_cipher) for further information about Vigenère chipper.
 
